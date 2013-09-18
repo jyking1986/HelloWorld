@@ -6,6 +6,7 @@ import com.example.helloworld.health.TemplateHealthCheck;
 import com.example.helloworld.resources.HelloWorldResource;
 import com.example.helloworld.resources.PersonResource;
 import com.yammer.dropwizard.Service;
+import com.yammer.dropwizard.assets.AssetsBundle;
 import com.yammer.dropwizard.config.Bootstrap;
 import com.yammer.dropwizard.config.Environment;
 import com.yammer.dropwizard.views.ViewBundle;
@@ -18,6 +19,8 @@ public class HelloWorldService extends Service<HelloWorldConfiguration> {
     @Override
     public void initialize(Bootstrap<HelloWorldConfiguration> bootstrap) {
         bootstrap.setName("hello-world");
+        bootstrap.addBundle(new AssetsBundle("/assets/styles", "/styles"));
+        bootstrap.addBundle(new AssetsBundle("/assets/scripts", "/scripts"));
         bootstrap.addBundle(new ViewBundle());
     }
 
