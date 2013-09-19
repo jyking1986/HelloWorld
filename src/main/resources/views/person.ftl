@@ -6,6 +6,7 @@
     <script src="/scripts/app.js"></script>
 </head>
 <body>
+<#include "common/navigation.ftl">
 <!-- calls getPerson().getName() and sanitizes it -->
 <h1>Hello, ${person.name?html}!</h1>
 </body>

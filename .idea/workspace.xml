@@ -2,26 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="055af7b0-8ac1-402c-9f92-26d67a90f269" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/styles/app.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/scripts/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/views/common/head.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/example/helloworld/views/BaseView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/example/helloworld/resources/HomeResource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/views/Pages/about.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/views/Pages/home.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/views/common/navigation.ftl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/helloworld/HelloWorldService.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/helloworld/HelloWorldService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/views/person.ftl" afterPath="$PROJECT_DIR$/src/main/resources/views/person.ftl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HelloWorld.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.java" changelist="055af7b0-8ac1-402c-9f92-26d67a90f269" time="1379418964313" ignored="false" />
+    <file path="/fragment.java" changelist="055af7b0-8ac1-402c-9f92-26d67a90f269" time="1379547743089" ignored="false" />
     <file path="/Dummy.txt" changelist="055af7b0-8ac1-402c-9f92-26d67a90f269" time="1379486161919" ignored="false" />
     <file path="/Person.java" changelist="055af7b0-8ac1-402c-9f92-26d67a90f269" time="1379469902918" ignored="false" />
     <file path="/pom.xml" changelist="055af7b0-8ac1-402c-9f92-26d67a90f269" time="1379470268346" ignored="false" />
     <file path="/PersonView.java" changelist="055af7b0-8ac1-402c-9f92-26d67a90f269" time="1379487326462" ignored="false" />
     <file path="/PersonResource.java" changelist="055af7b0-8ac1-402c-9f92-26d67a90f269" time="1379470462214" ignored="false" />
     <file path="/head.ftl" changelist="055af7b0-8ac1-402c-9f92-26d67a90f269" time="1379543297237" ignored="false" />
-    <file path="/person.ftl" changelist="055af7b0-8ac1-402c-9f92-26d67a90f269" time="1379544233295" ignored="false" />
+    <file path="/person.ftl" changelist="055af7b0-8ac1-402c-9f92-26d67a90f269" time="1379547190733" ignored="false" />
     <file path="/app.js" changelist="055af7b0-8ac1-402c-9f92-26d67a90f269" time="1379543729705" ignored="false" />
     <file path="/app.css" changelist="055af7b0-8ac1-402c-9f92-26d67a90f269" time="1379543839481" ignored="false" />
-    <file path="/HelloWorldService.java" changelist="055af7b0-8ac1-402c-9f92-26d67a90f269" time="1379543891515" ignored="false" />
+    <file path="/HelloWorldService.java" changelist="055af7b0-8ac1-402c-9f92-26d67a90f269" time="1379547310706" ignored="false" />
+    <file path="/navigation.ftl" changelist="055af7b0-8ac1-402c-9f92-26d67a90f269" time="1379547588459" ignored="false" />
+    <file path="/HomeResource.java" changelist="055af7b0-8ac1-402c-9f92-26d67a90f269" time="1379548676192" ignored="false" />
+    <file path="/BaseView.java" changelist="055af7b0-8ac1-402c-9f92-26d67a90f269" time="1379546799417" ignored="false" />
+    <file path="/home.ftl" changelist="055af7b0-8ac1-402c-9f92-26d67a90f269" time="1379547246365" ignored="false" />
+    <file path="/about.ftl" changelist="055af7b0-8ac1-402c-9f92-26d67a90f269" time="1379547256905" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,42 +89,62 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PersonView.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/helloworld/views/PersonView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="27" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="HelloWorldConfiguration.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/helloworld/HelloWorldConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="36" selection-start="412" selection-end="435" vertical-scroll-proportion="0.0">
+            <state line="11" column="13" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloWorldService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/helloworld/HelloWorldService.java">
+      <file leaf-file-name="BaseView.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/helloworld/views/BaseView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="34" selection-start="1137" selection-end="1137" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SampleConfiguration.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/helloworld/SampleConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="18" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0">
+            <state line="10" column="28" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonView.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/helloworld/views/PersonView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="34" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeResource.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/helloworld/resources/HomeResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="32" selection-start="297" selection-end="297" vertical-scroll-proportion="0.32327586">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OptionalResourceMethodDispatchAdapter.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/yammer/dropwizard/dropwizard-core/0.6.2/dropwizard-core-0.6.2.jar!/com/yammer/dropwizard/jersey/OptionalResourceMethodDispatchAdapter.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="20" selection-start="891" selection-end="891" vertical-scroll-proportion="-8.44">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServletHolder.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-servlet/8.1.10.v20130312/jetty-servlet-8.1.10.v20130312.jar!/org/eclipse/jetty/servlet/ServletHolder.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="97" column="16" selection-start="4312" selection-end="4312" vertical-scroll-proportion="-5.68">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -125,43 +152,34 @@
       <file leaf-file-name="PersonResource.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/helloworld/resources/PersonResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="23" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0">
+            <state line="13" column="13" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="person.ftl" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/views/person.ftl">
+      <file leaf-file-name="ServletHandler.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-servlet/8.1.10.v20130312/jetty-servlet-8.1.10.v20130312.jar!/org/eclipse/jetty/servlet/ServletHandler.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="39" selection-start="341" selection-end="341" vertical-scroll-proportion="0.31914893">
+            <state line="59" column="16" selection-start="3305" selection-end="3305" vertical-scroll-proportion="-5.68">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/scripts/app.js">
+      <file leaf-file-name="ContextHandler.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-server/8.1.10.v20130312/jetty-server-8.1.10.v20130312.jar!/org/eclipse/jetty/server/handler/ContextHandler.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="23" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
+            <state line="134" column="16" selection-start="6812" selection-end="6812" vertical-scroll-proportion="-6.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/styles/app.css">
+      <file leaf-file-name="ThreadNameFilter.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/yammer/dropwizard/dropwizard-core/0.6.2/dropwizard-core-0.6.2.jar!/com/yammer/dropwizard/servlets/ThreadNameFilter.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="29" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="head.ftl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/views/common/head.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="-0.0">
+            <state line="13" column="16" selection-start="471" selection-end="471" vertical-scroll-proportion="-7.2">
               <folding />
             </state>
           </provider>
@@ -185,11 +203,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/example/views/PersonView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/helloworld/SampleConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/helloworld/HelloWorldConfiguration.java" />
-        <option value="$PROJECT_DIR$/hello-world.yml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/helloworld/core/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/helloworld/views/person.ftl" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/helloworld/resources/PersonResource.java" />
@@ -198,9 +211,14 @@
         <option value="$PROJECT_DIR$/src/main/resources/views/common/head.ftl" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/app.js" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/styles/app.css" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/helloworld/HelloWorldService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/views/person.ftl" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/scripts/app.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/views/person.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/views/Pages/home.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/views/Pages/about.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/helloworld/HelloWorldService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/views/common/navigation.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/helloworld/views/BaseView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/helloworld/resources/HomeResource.java" />
       </list>
     </option>
   </component>
@@ -327,6 +345,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HelloWorld" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HelloWorld" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -356,10 +404,6 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -379,15 +423,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
+              <option name="myItemId" value="helloworld" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -414,6 +454,70 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="helloworld" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HelloWorld" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HelloWorld" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helloworld" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HelloWorld" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HelloWorld" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helloworld" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -592,7 +696,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50289017" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25578034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -605,8 +709,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24748924" sideWeight="0.7196532" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2803468" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2661406" sideWeight="0.74421966" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2803468" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -679,117 +783,121 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/bazaarvoice/dropwizard/dropwizard-configurable-assets-bundle/0.1.11/dropwizard-configurable-assets-bundle-0.1.11.jar!/com/bazaarvoice/dropwizard/assets/AssetsConfiguration.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-server/8.1.10.v20130312/jetty-server-8.1.10.v20130312.jar!/org/eclipse/jetty/server/Server.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="60" selection-start="718" selection-end="718" vertical-scroll-proportion="0.0">
+        <state line="62" column="16" selection-start="2706" selection-end="2706" vertical-scroll-proportion="-3.72">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello-world.yml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-server/8.1.10.v20130312/jetty-server-8.1.10.v20130312.jar!/org/eclipse/jetty/server/AbstractHttpConnection.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="39" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
+        <state line="163" column="20" selection-start="7963" selection-end="7963" vertical-scroll-proportion="-5.4">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/helloworld/core/Saying.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-http/8.1.10.v20130312/jetty-http-8.1.10.v20130312.jar!/org/eclipse/jetty/http/HttpParser.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0">
+        <state line="85" column="19" selection-start="3582" selection-end="3582" vertical-scroll-proportion="-3.4">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/helloworld/core/Person.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-server/8.1.10.v20130312/jetty-server-8.1.10.v20130312.jar!/org/eclipse/jetty/server/BlockingHttpConnection.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="32" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
+        <state line="15" column="43" selection-start="937" selection-end="937" vertical-scroll-proportion="-6.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/views/Pages/home.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="37" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/yammer/dropwizard/dropwizard-core/0.6.2/dropwizard-core-0.6.2.jar!/com/yammer/dropwizard/config/Bootstrap.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="16" selection-start="781" selection-end="781" vertical-scroll-proportion="1.059633" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/helloworld/resources/HelloWorldResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="43" selection-start="758" selection-end="758" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/helloworld/HelloWorldConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="36" selection-start="412" selection-end="435" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/helloworld/SampleConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="18" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/helloworld/resources/PersonResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="23" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/helloworld/views/PersonView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="27" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/views/common/head.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/styles/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="29" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="23" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/helloworld/HelloWorldService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="34" selection-start="1137" selection-end="1137" vertical-scroll-proportion="0.0">
+        <state line="14" column="13" selection-start="572" selection-end="572" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/views/person.ftl">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/helloworld/HelloWorldConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="39" selection-start="341" selection-end="341" vertical-scroll-proportion="0.31914893">
+        <state line="11" column="13" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/helloworld/views/PersonView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="34" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/helloworld/views/BaseView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="28" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/yammer/dropwizard/dropwizard-core/0.6.2/dropwizard-core-0.6.2.jar!/com/yammer/dropwizard/jersey/OptionalResourceMethodDispatchAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="20" selection-start="891" selection-end="891" vertical-scroll-proportion="-8.44">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-servlet/8.1.10.v20130312/jetty-servlet-8.1.10.v20130312.jar!/org/eclipse/jetty/servlet/ServletHolder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="16" selection-start="4312" selection-end="4312" vertical-scroll-proportion="-5.68">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/yammer/dropwizard/dropwizard-core/0.6.2/dropwizard-core-0.6.2.jar!/com/yammer/dropwizard/servlets/ThreadNameFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="16" selection-start="471" selection-end="471" vertical-scroll-proportion="-7.2">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-servlet/8.1.10.v20130312/jetty-servlet-8.1.10.v20130312.jar!/org/eclipse/jetty/servlet/ServletHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="16" selection-start="3305" selection-end="3305" vertical-scroll-proportion="-5.68">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-server/8.1.10.v20130312/jetty-server-8.1.10.v20130312.jar!/org/eclipse/jetty/server/handler/ContextHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="134" column="16" selection-start="6812" selection-end="6812" vertical-scroll-proportion="-6.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/helloworld/resources/PersonResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/helloworld/resources/HomeResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="32" selection-start="297" selection-end="297" vertical-scroll-proportion="0.32327586">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

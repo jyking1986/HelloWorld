@@ -4,6 +4,7 @@ package com.example.helloworld;
 import com.bazaarvoice.dropwizard.assets.ConfiguredAssetsBundle;
 import com.example.helloworld.health.TemplateHealthCheck;
 import com.example.helloworld.resources.HelloWorldResource;
+import com.example.helloworld.resources.HomeResource;
 import com.example.helloworld.resources.PersonResource;
 import com.yammer.dropwizard.Service;
 import com.yammer.dropwizard.assets.AssetsBundle;
@@ -31,6 +32,7 @@ public class HelloWorldService extends Service<HelloWorldConfiguration> {
         final String defaultName = configuration.getDefaultName();
         environment.addResource(new HelloWorldResource(template, defaultName));
         environment.addResource(new PersonResource());
+        environment.addResource(new HomeResource());
         environment.addHealthCheck(new TemplateHealthCheck(template));
     }
 
