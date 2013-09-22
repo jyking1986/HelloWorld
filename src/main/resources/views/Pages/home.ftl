@@ -3,6 +3,8 @@
 <head>
 <#include "../common/head.ftl">
     <link type="text/css" rel="stylesheet" href="/styles/app.css"/>
+
+    <script type="text/javascript" src="/scripts/jquery-1.4.2.min.js"></script>
     <script src="/scripts/app.js"></script>
 </head>
 <body>
