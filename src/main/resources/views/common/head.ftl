@@ -1,1 +1,1 @@
-<title>just a head tile here</title>
+<name>just a head tile here</name>
