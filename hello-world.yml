@@ -1,5 +1,5 @@
 
-template: Hello in test branch main main again, %s!
+template: Hello in test branch main main again + test 2, %s!
 defaultName: Stranger in test branch main
 
 
