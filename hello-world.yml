@@ -1,6 +1,11 @@
 
+<<<<<<< HEAD
 template: Hello in test branch test, %s!
 defaultName: Stranger in test branch test
+=======
+template: Hello in test branch main, %s!
+defaultName: Stranger in test branch main
+>>>>>>> master
 
 
 assets:
