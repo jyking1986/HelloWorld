@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 template: Hello1, %s!
 defaultName: Stranger1
+=======
+template: Hello2, %s!
+defaultName: Stranger2
+>>>>>>> master
 
 assets:
   overrides:
