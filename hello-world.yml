@@ -1,5 +1,4 @@
-template: Hello, %s!
-defaultName: Stranger
+template: Hello1, %s!
 defaultName: Stranger1
 
 assets:
