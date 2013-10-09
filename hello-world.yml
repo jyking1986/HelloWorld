@@ -1,6 +1,6 @@
 
-template: Hello in test branch, %s!
-defaultName: Stranger in test branch
+template: Hello in test branch test, %s!
+defaultName: Stranger in test branch test
 
 
 assets:
