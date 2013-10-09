@@ -1,10 +1,7 @@
-<<<<<<< HEAD
-template: Hello1, %s!
-defaultName: Stranger1
-=======
-template: Hello2, %s!
-defaultName: Stranger2
->>>>>>> master
+
+template: Hello in test branch, %s!
+defaultName: Stranger in test branch
+
 
 assets:
   overrides:
