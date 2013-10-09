@@ -1,5 +1,7 @@
-template: Hello2, %s!
-defaultName: Stranger2
+
+template: Hello in test branch, %s!
+defaultName: Stranger in test branch
+
 
 assets:
   overrides:

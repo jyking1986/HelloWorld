@@ -9,7 +9,7 @@
 </head>
 <body>
 <form action='/books/update'>
-    <p>You totally have <span data-bind='text: gifts().length'>&nbsp;</span> book(s) <span data-bind='visible: isDirty()'>*</span></p>
+    <p>你有那么多 totally have <span data-bind='text: gifts().length'>&nbsp;</span> book(s) <span data-bind='visible: isDirty()'>*</span></p>
     <table data-bind='visible: gifts().length > 0'>
         <thead>
         <tr>
