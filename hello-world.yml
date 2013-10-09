@@ -1,5 +1,5 @@
-template: Hello, %s!
-defaultName: Stranger
+template: Hello2, %s!
+defaultName: Stranger2
 
 assets:
   overrides:
